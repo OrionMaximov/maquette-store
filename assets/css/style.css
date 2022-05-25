@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "roboto";
+    src: url(../font/Roboto-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+#head{
+    width: 100%;   
+}
+#logo{
+    padding-left: .5rem;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo>a{
+    color: white;
+    padding-right: .8rem;
+}
+.space{ /*df jcsb*/
+    width: 100%;
+}
+#jeans{
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    align-items: center;
+    font-size: 1.2rem;
+}
+#jeans>i{
+    padding:.1rem
+}
+#jeans button{
+    background-color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+#menu{/* df fldc*/
+    display: none;
+}
+.slider{
+    color: white;
+    height: 35vh;
+    background-image: url(../img/jeans.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.slider h2{
+    font-size: 2.2rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+.slider p{
+    margin: .9rem 0;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+.slider button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-left: 1rem;
+    padding: 0.8rem;
+}
