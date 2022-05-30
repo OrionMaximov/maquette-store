@@ -160,10 +160,11 @@
    
 }
 .parent input{
-    width: 99%;
+    width: 100%;
     margin: .2rem 0;
     padding: .3rem 0;
     padding-left: .4rem;
+    box-sizing: border-box;
 }
 .parent button{
     width: 100%;
@@ -173,6 +174,7 @@
     color: white;
     font-size: 1.5rem;
     margin-bottom: 3rem;
+    box-sizing: border-box;
 }
 .store{
     display: flex;
@@ -219,3 +221,36 @@ footer{
     justify-content: center;
 }
 /*fin*/
+@media screen and (min-width:576px) {
+    #menu{/* df fldc*/
+    display: flex;
+    flex-direction: column;
+    }
+    .space{ /*df jcsb*/
+        width: 100%;
+        display: flex;
+    
+    }
+    .slider{
+        width: 100%;
+        
+    }
+ 
+    
+    #logo>a{
+       display: none;
+    }
+    #logo{
+        background-color: white;
+        color:black;
+    }
+    #contact{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contact{
+        width: 33%;
+    }
+    .store{width: 66%;}
+}
